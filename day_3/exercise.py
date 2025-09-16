@@ -1,3 +1,6 @@
+import math
+
+
 age = 250
 height = 1.73
 complex = 1 + 1j
@@ -28,3 +31,28 @@ circumference = 2 * pi * radius
 
 print(f"Area: {area}")
 print(f"Circumference: {circumference}")
+
+# y = mx + b
+m = 2
+b = -2
+
+y_intercept = (0, b)
+
+x = (0 - b) / m
+x_intercept = (x, 0)
+
+print("Slope:", m)
+print("Y-intercept:", y_intercept)
+print("X-intercept:", x_intercept)
+
+x1, y1 = 2, 2
+x2 , y2 = 6, 10
+
+# slope formula
+m = (y2 - y1) / (x2 - x1)
+
+# euclidean distance formula
+d = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+print("Slope:", m)
+print("Euclidean Distance:", d)
