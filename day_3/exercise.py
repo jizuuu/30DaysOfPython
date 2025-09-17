@@ -56,3 +56,15 @@ d = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
 
 print("Slope:", m)
 print("Euclidean Distance:", d)
+
+# 1 1 1 1 1
+# 2 1 2 4 8
+# 3 1 3 9 27
+# 4 1 4 16 64
+# 5 1 5 25 125
+
+# n**1 n n**1 n**2 n**3
+
+num = int(input("Enter a number: "))
+for num in range(1, 6):
+  print(f"{num:<5}{1:<5}{num:<5}{num**2:<5}{num**3:<5}")
