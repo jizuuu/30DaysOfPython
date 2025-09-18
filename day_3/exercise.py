@@ -33,15 +33,15 @@ print(f"Area: {area}")
 print(f"Circumference: {circumference}")
 
 # y = mx + b
-m = 2
+slope_eq = 2
 b = -2
 
 y_intercept = (0, b)
 
-x = (0 - b) / m
+x = (0 - b) / slope_eq
 x_intercept = (x, 0)
 
-print("Slope:", m)
+print("Slope:", slope_eq)
 print("Y-intercept:", y_intercept)
 print("X-intercept:", x_intercept)
 
@@ -49,13 +49,30 @@ x1, y1 = 2, 2
 x2 , y2 = 6, 10
 
 # slope formula
-m = (y2 - y1) / (x2 - x1)
+slope_pts = (y2 - y1) / (x2 - x1)
 
 # euclidean distance formula
 d = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
 
-print("Slope:", m)
+print("Slope:", slope_pts)
 print("Euclidean Distance:", d)
+
+if slope_eq == slope_pts:
+  print("The Slopes are equal")
+else:
+  print("The Slopes are not equal")
+
+x = [-3, 2, 3, 4, 5]
+
+for i in range(len(x)):
+  y = x[i]**2 + 6 * x[i] + 9
+  if y == 0:
+    print(x[i])
+
+word_one = "python"
+word_two = "dragon"
+
+print(len(word_one) != len(word_two))
 
 # 1 1 1 1 1
 # 2 1 2 4 8
