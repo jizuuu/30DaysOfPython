@@ -32,3 +32,28 @@ print(coding_word.find('Coding'))
 
 coding_to_python = "Coding For All"
 print(coding_to_python.replace("Coding", "Python"))
+
+#12
+
+everyone_to_all = "Python for Everyone"
+print(everyone_to_all.replace('Everyone', 'All'))
+
+#13
+
+split_coding = "Coding For All"
+print(split_coding.split(' '))
+
+#14
+
+internet_socials = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(internet_socials.split(', '))
+
+#15
+
+char_index = "Coding For All"
+print(char_index[0])
+
+#16
+
+last_index = "Coding For All"
+print(last_index[-1])
