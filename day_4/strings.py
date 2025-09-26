@@ -57,3 +57,44 @@ print(char_index[0])
 
 last_index = "Coding For All"
 print(last_index[-1])
+
+#17
+
+char_ten = "Coding For All"
+print(char_ten[10])
+
+#18
+
+PFE = "Python For Everyone"
+
+#19
+
+CFA = "Coding For All"
+
+#20
+
+print(PFE.index('P'))
+
+#21
+
+print(CFA.index('C'))
+
+#22
+
+CFAP = "Coding For All People"
+print(CFAP.rfind('l'))
+
+#23
+
+first_because = "You cannot end a sentence with because because because is a conjunction"
+print(first_because.find('because'))
+
+#24
+
+last_because = "You cannot end a sentence with because because because is a conjunction"
+print(last_because.rfind('because'))
+
+#25
+
+slice_because = "You cannot end a sentence with because because because is a conjunction"
+print(slice_because[30:54])
