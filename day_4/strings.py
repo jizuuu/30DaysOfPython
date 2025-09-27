@@ -98,3 +98,29 @@ print(last_because.rfind('because'))
 
 slice_because = "You cannot end a sentence with because because because is a conjunction"
 print(slice_because[30:54])
+
+#26
+
+first_position = "You cannot end a sentence with because because because is a conjunction"
+
+print(first_position.find('because'))
+
+#27
+
+slice_because = "You cannot end a sentence with because because because is a conjunction"
+print(slice_because[30:54])
+
+#28
+
+start_substring = "Coding For All"
+print(start_substring.find('Coding'))
+
+#29
+
+end_substring = "Coding For All"
+print(end_substring.rfind('coding'))
+
+#30
+
+spaces = "   Coding For All      "
+print(spaces.strip(' '))
