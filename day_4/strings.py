@@ -124,3 +124,43 @@ print(end_substring.rfind('coding'))
 
 spaces = "   Coding For All      "
 print(spaces.strip(' '))
+
+#31
+
+challenge = "30DaysOfPython"
+print(challenge.isidentifier())
+challenge = "thirty_days_of_python"
+print(challenge.isidentifier()) # this returns true
+
+#32
+
+python_libraries = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print("#".join(python_libraries))
+
+#33
+
+print('I am enjoying this challenge.\nI just wonder what is next.')
+
+#34
+
+challenge = 'Name\tAge\tCountry\tCity\nAsabeneh\t250\tFindland\tHelsinki'
+print(challenge.expandtabs(10))
+
+#35
+
+radius = 10
+area = int(3.14 * radius ** 2)
+print(f"The area of a circle with radius 10 is {area} meters square.")
+
+#36
+
+x = 8
+y = 6
+
+print("%d + %d = %d" %(x, y, x + y))
+print("{} - {} = {}".format(x, y, x - y))
+print(f"{x} * {y} = {x * y}")
+print(f"{x} / {y} = {x / y:.2f}")
+print(f"{x} % {y} = {x % y}")
+print(f"{x} // {y} = {x // y}")
+print(f"{x} ** {y} = {x ** y}")
